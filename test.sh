@@ -5,21 +5,21 @@ echo "Enter the first number:"
 read num1
 
 if ! [ "$num1" -eq "$num1" ] 2> /dev/null; then
-  echo "invalid input $num1"
+  echo "invalid input: $num1"
   exit 1
 fi
 
 echo "Enter the second number:"
 read num2
 if ! [ "$num2" -eq "$num2" ] 2> /dev/null; then
-  echo "invalid input $num2"
+  echo "invalid input: $num2"
   exit 1
 fi
 
 echo "Enter the third number:"
 read num3
 if ! [ "$num3" -eq "$num3" ] 2> /dev/null; then
-  echo "invalid input $num3"
+  echo "invalid input: $num3"
   exit 1
 fi
 
